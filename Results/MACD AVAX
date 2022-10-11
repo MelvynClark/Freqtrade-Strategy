@@ -1,0 +1,61 @@
+Result for strategy MACDStrategyAVAX
+========================================================== BACKTESTING REPORT ==========================================================
+|      Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| AVAX/USDT |     42 |           0.72 |          30.41 |            29.301 |          29.30 |        2:50:00 |    40     0     2  95.2 |
+|     TOTAL |     42 |           0.72 |          30.41 |            29.301 |          29.30 |        2:50:00 |    40     0     2  95.2 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     42 |           0.72 |          30.41 |            29.301 |          29.30 |        2:50:00 |    40     0     2  95.2 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      36 |     36     0     0   100 |           0.78 |          28.25 |            28.098 |          28.25 |
+|   exit_signal |       6 |      4     0     2  66.7 |           0.36 |           2.16 |             1.203 |           2.16 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-10 00:55:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 42 / 0.15           |
+| Starting balance            | 100 USDT            |
+| Final balance               | 129.301 USDT        |
+| Absolute profit             | 29.301 USDT         |
+| Total profit %              | 29.30%              |
+| CAGR %                      | 39.46%              |
+| Profit factor               | 7.59                |
+| Trades per day              | 0.15                |
+| Avg. daily profit %         | 0.10%               |
+| Avg. stake amount           | 98.458 USDT         |
+| Total trade volume          | 4135.22 USDT        |
+|                             |                     |
+| Best Pair                   | AVAX/USDT 30.41%    |
+| Worst Pair                  | AVAX/USDT 30.41%    |
+| Best trade                  | AVAX/USDT 3.94%     |
+| Worst trade                 | AVAX/USDT -2.26%    |
+| Best day                    | 4.356 USDT          |
+| Worst day                   | -2.66 USDT          |
+| Days win/draw/lose          | 38 / 191 / 2        |
+| Avg. Duration Winners       | 2:33:00             |
+| Avg. Duration Loser         | 8:38:00             |
+| Rejected Entry signals      | 0                   |
+| Entry/Exit Timeouts         | 0 / 0               |
+|                             |                     |
+| Min balance                 | 100.645 USDT        |
+| Max balance                 | 131.961 USDT        |
+| Max % of account underwater | 2.02%               |
+| Absolute Drawdown (Account) | 2.02%               |
+| Absolute Drawdown           | 2.66 USDT           |
+| Drawdown high               | 31.961 USDT         |
+| Drawdown low                | 29.301 USDT         |
+| Drawdown Start              | 2022-09-13 17:15:00 |
+| Drawdown End                | 2022-09-14 04:35:00 |
+| Market change               | -84.46%             |
+=====================================================
