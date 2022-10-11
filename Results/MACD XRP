@@ -1,0 +1,60 @@
+Result for strategy MACDStrategyXRP
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| XRP/USDT |     83 |           0.36 |          29.86 |            34.147 |          34.15 |        5:17:00 |    78     0     5  94.0 |
+|    TOTAL |     83 |           0.36 |          29.86 |            34.147 |          34.15 |        5:17:00 |    78     0     5  94.0 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     83 |           0.36 |          29.86 |            34.147 |          34.15 |        5:17:00 |    78     0     5  94.0 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      83 |     78     0     5  94.0 |           0.36 |          29.86 |            34.147 |          29.86 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-08 05:00:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 83 / 0.3            |
+| Starting balance            | 100 USDT            |
+| Final balance               | 134.147 USDT        |
+| Absolute profit             | 34.147 USDT         |
+| Total profit %              | 34.15%              |
+| CAGR %                      | 46.66%              |
+| Profit factor               | 179.41              |
+| Trades per day              | 0.3                 |
+| Avg. daily profit %         | 0.12%               |
+| Avg. stake amount           | 115.232 USDT        |
+| Total trade volume          | 9564.287 USDT       |
+|                             |                     |
+| Best Pair                   | XRP/USDT 29.86%     |
+| Worst Pair                  | XRP/USDT 29.86%     |
+| Best trade                  | XRP/USDT 2.12%      |
+| Worst trade                 | XRP/USDT -0.13%     |
+| Best day                    | 3.315 USDT          |
+| Worst day                   | -0.143 USDT         |
+| Days win/draw/lose          | 69 / 204 / 5        |
+| Avg. Duration Winners       | 2:42:00             |
+| Avg. Duration Loser         | 1 day, 21:23:00     |
+| Rejected Entry signals      | 1                   |
+| Entry/Exit Timeouts         | 1 / 0               |
+|                             |                     |
+| Min balance                 | 99.999 USDT         |
+| Max balance                 | 134.147 USDT        |
+| Max % of account underwater | 0.13%               |
+| Absolute Drawdown (Account) | 0.13%               |
+| Absolute Drawdown           | 0.143 USDT          |
+| Drawdown high               | 12.19 USDT          |
+| Drawdown low                | 12.047 USDT         |
+| Drawdown Start              | 2022-03-10 10:25:00 |
+| Drawdown End                | 2022-03-19 05:35:00 |
+| Market change               | -37.28%             |
+=====================================================
