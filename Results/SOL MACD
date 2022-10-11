@@ -1,0 +1,62 @@
+Result for strategy MACDStrategySOL
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| SOL/USDT |     49 |           0.77 |          37.80 |           436.734 |          43.67 |        6:38:00 |    42     0     7  85.7 |
+|    TOTAL |     49 |           0.77 |          37.80 |           436.734 |          43.67 |        6:38:00 |    42     0     7  85.7 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     49 |           0.77 |          37.80 |           436.734 |          43.67 |        6:38:00 |    42     0     7  85.7 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      48 |     41     0     7  85.4 |           0.78 |          37.36 |           430.549 |          37.36 |
+|    force_exit |       1 |      1     0     0   100 |           0.44 |           0.44 |             6.184 |           0.44 |
+======================================================= LEFT OPEN TRADES REPORT =======================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| SOL/USDT |      1 |           0.44 |           0.44 |             6.184 |           0.62 |        0:10:00 |     1     0     0   100 |
+|    TOTAL |      1 |           0.44 |           0.44 |             6.184 |           0.62 |        0:10:00 |     1     0     0   100 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-11 02:25:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 49 / 0.17           |
+| Starting balance            | 1000 USDT           |
+| Final balance               | 1436.734 USDT       |
+| Absolute profit             | 436.734 USDT        |
+| Total profit %              | 43.67%              |
+| CAGR %                      | 59.58%              |
+| Profit factor               | 771.45              |
+| Trades per day              | 0.17                |
+| Avg. daily profit %         | 0.15%               |
+| Avg. stake amount           | 1172.192 USDT       |
+| Total trade volume          | 57437.41 USDT       |
+|                             |                     |
+| Best Pair                   | SOL/USDT 37.80%     |
+| Worst Pair                  | SOL/USDT 37.80%     |
+| Best trade                  | SOL/USDT 4.57%      |
+| Worst trade                 | SOL/USDT -0.02%     |
+| Best day                    | 44.105 USDT         |
+| Worst day                   | -0.209 USDT         |
+| Days win/draw/lose          | 42 / 226 / 7        |
+| Avg. Duration Winners       | 5:49:00             |
+| Avg. Duration Loser         | 11:27:00            |
+| Rejected Entry signals      | 0                   |
+| Entry/Exit Timeouts         | 0 / 0               |
+|                             |                     |
+| Min balance                 | 1010.808 USDT       |
+| Max balance                 | 1436.734 USDT       |
+| Max % of account underwater | 0.03%               |
+| Absolute Drawdown (Account) | 0.03%               |
+| Absolute Drawdown           | 0.333 USDT          |
+| Drawdown high               | 305.99 USDT         |
+| Drawdown low                | 305.657 USDT        |
+| Drawdown Start              | 2022-08-04 21:00:00 |
+| Drawdown End                | 2022-08-15 02:10:00 |
+| Market change               | -81.53%             |
+=====================================================
