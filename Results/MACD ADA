@@ -1,0 +1,60 @@
+Result for strategy MACDStrategyADA
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| ADA/USDT |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+|    TOTAL |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      93 |     89     0     4  95.7 |           0.38 |          35.66 |            41.886 |          35.66 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-10 04:55:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 93 / 0.33           |
+| Starting balance            | 100 USDT            |
+| Final balance               | 141.886 USDT        |
+| Absolute profit             | 41.886 USDT         |
+| Total profit %              | 41.89%              |
+| CAGR %                      | 57.28%              |
+| Profit factor               | 530.00              |
+| Trades per day              | 0.33                |
+| Avg. daily profit %         | 0.15%               |
+| Avg. stake amount           | 114.933 USDT        |
+| Total trade volume          | 10688.753 USDT      |
+|                             |                     |
+| Best Pair                   | ADA/USDT 35.66%     |
+| Worst Pair                  | ADA/USDT 35.66%     |
+| Best trade                  | ADA/USDT 3.96%      |
+| Worst trade                 | ADA/USDT -0.04%     |
+| Best day                    | 4.347 USDT          |
+| Worst day                   | -0.04 USDT          |
+| Days win/draw/lose          | 77 / 191 / 4        |
+| Avg. Duration Winners       | 1:57:00             |
+| Avg. Duration Loser         | 15:32:00            |
+| Rejected Entry signals      | 3                   |
+| Entry/Exit Timeouts         | 3 / 2               |
+|                             |                     |
+| Min balance                 | 100.001 USDT        |
+| Max balance                 | 141.886 USDT        |
+| Max % of account underwater | 0.06%               |
+| Absolute Drawdown (Account) | 0.06%               |
+| Absolute Drawdown           | 0.068 USDT          |
+| Drawdown high               | 6.115 USDT          |
+| Drawdown low                | 6.047 USDT          |
+| Drawdown Start              | 2022-03-25 17:55:00 |
+| Drawdown End                | 2022-04-01 15:05:00 |
+| Market change               | -67.74%             |
+=====================================================
