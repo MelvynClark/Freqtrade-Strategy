@@ -1,0 +1,29 @@
+{
+  "strategy_name": "MACDStrategyADA",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_cci": -184
+    },
+    "sell": {
+      "sell_cci": 408
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.261,
+      "17": 0.082,
+      "33": 0.033,
+      "55": 0
+    },
+    "stoploss": {
+      "stoploss": -0.233
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-10 09:06:57.281269+00:00"
+}

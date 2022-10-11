@@ -1,0 +1,29 @@
+{
+  "strategy_name": "MACDStrategyETC",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_cci": -65
+    },
+    "sell": {
+      "sell_cci": 547
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.266,
+      "15": 0.083,
+      "45": 0.029,
+      "160": 0
+    },
+    "stoploss": {
+      "stoploss": -0.338
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-09 00:00:37.870241+00:00"
+}

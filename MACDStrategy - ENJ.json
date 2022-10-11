@@ -1,0 +1,29 @@
+{
+  "strategy_name": "MACDStrategyENJ",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_cci": -211
+    },
+    "sell": {
+      "sell_cci": 386
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.28500000000000003,
+      "18": 0.095,
+      "65": 0.03,
+      "140": 0
+    },
+    "stoploss": {
+      "stoploss": -0.324
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-09 23:47:00.207521+00:00"
+}

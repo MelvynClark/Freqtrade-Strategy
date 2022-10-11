@@ -1,0 +1,29 @@
+{
+  "strategy_name": "MACDStrategyXRP",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_cci": -178
+    },
+    "sell": {
+      "sell_cci": 524
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.147,
+      "28": 0.020999999999999998,
+      "81": 0.011,
+      "92": 0
+    },
+    "stoploss": {
+      "stoploss": -0.284
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-08 11:03:33.211700+00:00"
+}
