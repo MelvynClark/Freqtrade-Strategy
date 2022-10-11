@@ -1,0 +1,125 @@
+PS C:\Users\Melvyn Clark\ft_userdata> docker-compose run --rm freqtrade backtesting --datadir user_data/data/binance --export trades --strategy MACDStrategyADA -i 5m --timerange=20220101-
+2022-10-10 14:25:43,693 - freqtrade.configuration.load_config - INFO - Using config: user_data/config.json ...
+2022-10-10 14:25:43,707 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-10-10 14:25:43,707 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 5m ...
+2022-10-10 14:25:43,707 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2022-10-10 14:25:43,708 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20220101- ...
+2022-10-10 14:25:44,743 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-10-10 14:25:44,745 - freqtrade.configuration.configuration - INFO - Using data directory: user_data/data/binance ...
+2022-10-10 14:25:44,745 - freqtrade.configuration.configuration - INFO - Overriding timeframe with Command line argument
+2022-10-10 14:25:44,745 - freqtrade.configuration.configuration - INFO - Parameter --export detected: trades ...
+2022-10-10 14:25:44,746 - freqtrade.configuration.configuration - INFO - Parameter --cache=day detected ...
+2022-10-10 14:25:44,746 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-10-10 14:25:44,768 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2022-10-10 14:25:44,768 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-10-10 14:25:44,768 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-10-10 14:25:44,774 - freqtrade.commands.optimize_commands - INFO - Starting freqtrade in Backtesting mode
+2022-10-10 14:25:44,774 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-10-10 14:25:44,774 - freqtrade.exchange.exchange - INFO - Using CCXT 1.92.52
+2022-10-10 14:25:44,775 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'future'}}
+2022-10-10 14:25:44,790 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'future'}}
+2022-10-10 14:25:44,806 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2022-10-10 14:25:45,735 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-10-10 14:25:45,922 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy MACDStrategyADA from '/freqtrade/user_data/strategies/MACDStrategy - ADA.py'...
+2022-10-10 14:25:45,925 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/MACDStrategy - ADA.json
+2022-10-10 14:25:45,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2022-10-10 14:25:45,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-10-10 14:25:45,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2022-10-10 14:25:45,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.261, '17': 0.082, '33': 0.033, '55': 0}
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.233
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2022-10-10 14:25:45,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-10-10 14:25:45,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-10-10 14:25:45,942 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-10-10 14:25:45,952 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2022-10-10 14:25:46,350 - freqtrade.optimize.backtesting - INFO - Loading data from 2022-01-01 00:00:00 up to 2022-10-10 04:55:00 (282 days).
+2022-10-10 14:25:46,406 - freqtrade.data.history.idatahandler - WARNING - ADA/USDT, funding_rate, 8h, data starts at 2022-01-01 00:00:00
+2022-10-10 14:25:46,504 - freqtrade.optimize.backtesting - INFO - Dataload complete. Calculating indicators
+2022-10-10 14:25:46,512 - freqtrade.optimize.backtesting - WARNING - Backtest result caching disabled due to use of open-ended timerange.
+2022-10-10 14:25:46,513 - freqtrade.optimize.backtesting - INFO - Running backtesting for Strategy MACDStrategyADA
+2022-10-10 14:25:46,513 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_cci = -184
+2022-10-10 14:25:46,514 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_cci = 408
+2022-10-10 14:25:46,514 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-10-10 14:25:46,545 - freqtrade.optimize.backtesting - INFO - Backtesting with data from 2022-01-01 00:00:00 up to 2022-10-10 04:55:00 (282 days).
+2022-10-10 14:25:51,933 - freqtrade.misc - INFO - dumping json to "/freqtrade/user_data/backtest_results/backtest-result-2022-10-10_14-25-51.meta.json"
+2022-10-10 14:25:51,940 - freqtrade.misc - INFO - dumping json to "/freqtrade/user_data/backtest_results/backtest-result-2022-10-10_14-25-51.json"
+2022-10-10 14:25:51,950 - freqtrade.misc - INFO - dumping json to "/freqtrade/user_data/backtest_results/.last_result.json"
+Result for strategy MACDStrategyADA
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| ADA/USDT |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+|    TOTAL |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     93 |           0.38 |          35.66 |            41.886 |          41.89 |        2:32:00 |    89     0     4  95.7 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      93 |     89     0     4  95.7 |           0.38 |          35.66 |            41.886 |          35.66 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-10 04:55:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 93 / 0.33           |
+| Starting balance            | 100 USDT            |
+| Final balance               | 141.886 USDT        |
+| Absolute profit             | 41.886 USDT         |
+| Total profit %              | 41.89%              |
+| CAGR %                      | 57.28%              |
+| Profit factor               | 530.00              |
+| Trades per day              | 0.33                |
+| Avg. daily profit %         | 0.15%               |
+| Avg. stake amount           | 114.933 USDT        |
+| Total trade volume          | 10688.753 USDT      |
+|                             |                     |
+| Best Pair                   | ADA/USDT 35.66%     |
+| Worst Pair                  | ADA/USDT 35.66%     |
+| Best trade                  | ADA/USDT 3.96%      |
+| Worst trade                 | ADA/USDT -0.04%     |
+| Best day                    | 4.347 USDT          |
+| Worst day                   | -0.04 USDT          |
+| Days win/draw/lose          | 77 / 191 / 4        |
+| Avg. Duration Winners       | 1:57:00             |
+| Avg. Duration Loser         | 15:32:00            |
+| Rejected Entry signals      | 3                   |
+| Entry/Exit Timeouts         | 3 / 2               |
+|                             |                     |
+| Min balance                 | 100.001 USDT        |
+| Max balance                 | 141.886 USDT        |
+| Max % of account underwater | 0.06%               |
+| Absolute Drawdown (Account) | 0.06%               |
+| Absolute Drawdown           | 0.068 USDT          |
+| Drawdown high               | 6.115 USDT          |
+| Drawdown low                | 6.047 USDT          |
+| Drawdown Start              | 2022-03-25 17:55:00 |
+| Drawdown End                | 2022-04-01 15:05:00 |
+| Market change               | -67.74%             |
+=====================================================
