@@ -1,0 +1,60 @@
+Result for strategy MACDStrategyENJ
+========================================================== BACKTESTING REPORT =========================================================
+|     Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|----------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| ENJ/USDT |     35 |           0.96 |          33.60 |            38.802 |          38.80 |        7:43:00 |    34     0     1  97.1 |
+|    TOTAL |     35 |           0.96 |          33.60 |            38.802 |          38.80 |        7:43:00 |    34     0     1  97.1 |
+========================================================= ENTER TAG STATS ==========================================================
+|   TAG |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|-------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+| TOTAL |     35 |           0.96 |          33.60 |            38.802 |          38.80 |        7:43:00 |    34     0     1  97.1 |
+===================================================== EXIT REASON STATS =====================================================
+|   Exit Reason |   Exits |   Win  Draws  Loss  Win% |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |
+|---------------+---------+--------------------------+----------------+----------------+-------------------+----------------|
+|           roi |      35 |     34     0     1  97.1 |           0.96 |           33.6 |            38.802 |           33.6 |
+====================================================== LEFT OPEN TRADES REPORT ======================================================
+|   Pair |   Buys |   Avg Profit % |   Cum Profit % |   Tot Profit USDT |   Tot Profit % |   Avg Duration |   Win  Draw  Loss  Win% |
+|--------+--------+----------------+----------------+-------------------+----------------+----------------+-------------------------|
+|  TOTAL |      0 |           0.00 |           0.00 |             0.000 |           0.00 |           0:00 |     0     0     0     0 |
+================== SUMMARY METRICS ==================
+| Metric                      | Value               |
+|-----------------------------+---------------------|
+| Backtesting from            | 2022-01-01 00:00:00 |
+| Backtesting to              | 2022-10-09 15:45:00 |
+| Max open trades             | 1                   |
+|                             |                     |
+| Total/Daily Avg Trades      | 35 / 0.12           |
+| Starting balance            | 100 USDT            |
+| Final balance               | 138.802 USDT        |
+| Absolute profit             | 38.802 USDT         |
+| Total profit %              | 38.80%              |
+| CAGR %                      | 53.10%              |
+| Profit factor               | 406.16              |
+| Trades per day              | 0.12                |
+| Avg. daily profit %         | 0.14%               |
+| Avg. stake amount           | 118.395 USDT        |
+| Total trade volume          | 4143.826 USDT       |
+|                             |                     |
+| Best Pair                   | ENJ/USDT 33.60%     |
+| Worst Pair                  | ENJ/USDT 33.60%     |
+| Best trade                  | ENJ/USDT 3.01%      |
+| Worst trade                 | ENJ/USDT -0.08%     |
+| Best day                    | 3.735 USDT          |
+| Worst day                   | -0.096 USDT         |
+| Days win/draw/lose          | 32 / 232 / 1        |
+| Avg. Duration Winners       | 5:04:00             |
+| Avg. Duration Loser         | 4 days, 1:45:00     |
+| Rejected Entry signals      | 1                   |
+| Entry/Exit Timeouts         | 1 / 0               |
+|                             |                     |
+| Min balance                 | 100.879 USDT        |
+| Max balance                 | 138.802 USDT        |
+| Max % of account underwater | 0.08%               |
+| Absolute Drawdown (Account) | 0.08%               |
+| Absolute Drawdown           | 0.096 USDT          |
+| Drawdown high               | 20.646 USDT         |
+| Drawdown low                | 20.55 USDT          |
+| Drawdown Start              | 2022-04-27 03:05:00 |
+| Drawdown End                | 2022-05-04 18:45:00 |
+| Market change               | -82.46%             |
+=====================================================
