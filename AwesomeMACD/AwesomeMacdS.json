@@ -1,0 +1,25 @@
+{
+  "strategy_name": "AwesomeMacdS",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {},
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.23399999999999999,
+      "356": 0.159,
+      "894": 0.081,
+      "2280": 0
+    },
+    "stoploss": {
+      "stoploss": -0.25
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-07 07:45:58.656300+00:00"
+}
