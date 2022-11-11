@@ -81,7 +81,7 @@ class MACDRS(IStrategy):
                     (dataframe['close'] > dataframe[f'ema200_long_{self.ema200_long.value}']) &
                     (qtpylib.crossed_above(dataframe['macd'], dataframe['macdsignal']))
             ),
-            'enter_long'] = 0
+            'enter_long'] = 1
 
         dataframe.loc[
             (
@@ -103,7 +103,7 @@ class MACDRS(IStrategy):
                     (dataframe['macd'] > 0) &
                     (qtpylib.crossed_below(dataframe['macd'], dataframe['macdsignal']))
             ),
-            'exit_long'] = 0
+            'exit_long'] = 1
             
         dataframe.loc[
             (
