@@ -1,0 +1,28 @@
+{
+  "strategy_name": "MACDRS",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "ema200_long": 21,
+      "ema200_short": 246
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.368,
+      "625": 0.11699999999999999,
+      "2060": 0.057,
+      "4813": 0
+    },
+    "stoploss": {
+      "stoploss": -0.086
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-11 03:32:04.803951+00:00"
+}
