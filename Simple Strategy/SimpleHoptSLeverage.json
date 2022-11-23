@@ -1,0 +1,35 @@
+{
+  "strategy_name": "SimpleHoptS",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "rsi_buylong_hline": 64,
+      "rsi_buyshort_hline": 53,
+      "rsi_period": 10
+    },
+    "sell": {
+      "rsi_selllong_hline": 80,
+      "rsi_sellshort_hline": 80
+    },
+    "protection": {
+      "protection_cooldown_lookback": 30,
+      "protection_enabled": true
+    },
+    "roi": {
+      "0": 0.944,
+      "3259": 0.432,
+      "6736": 0.156,
+      "29227": 0
+    },
+    "stoploss": {
+      "stoploss": -0.17
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-23 05:11:06.114076+00:00"
+}
